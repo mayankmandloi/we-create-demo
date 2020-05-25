@@ -3,17 +3,19 @@ import  Discovery from './assets/discovery-white.svg';
 import  Research from './assets/research-and-project-estimation.svg';
 import  Wireframe from './assets/wireframe.svg';
 import  UiApplication from './assets/ui.svg';
+import {Header} from './view/header/Header'
 import './App.css';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './reducer';
+import FormConnector from './view/form/FormConnector';
 
 function App() {
+  const store = createStore(reducers)
   return (
+    <Provider store={store}>
     <div className="main-parent">
-      <div className="left-section1">
-        <h2>Product Design</h2>
-        <p>Implement/design below page with css(don’t use bootstrap) and React-Redux. Make fake api calls with waiting of 2-3 seconds and after that return hardcoded data. Page design should be mobile friendly.  </p>
-      </div>
-      <div className="right-section1">
-      </div>
+      <Header></Header>
       <div className="left-section2">
       </div>
       <div className="right-section2">
@@ -87,6 +89,7 @@ function App() {
         <p>Implement/design below page with css(don’t use bootstrap) and React-Redux. Make fake api calls with waiting of 2-3 seconds and after that return hardcoded data. Page design should be mobile friendly.  </p>
       </div>
     </div>
+    </Provider>
   );
 }
 
