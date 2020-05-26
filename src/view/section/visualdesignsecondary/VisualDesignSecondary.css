@@ -1,0 +1,35 @@
+.VisualDesignSecondaryContent {
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-content: center;
+    flex-flow:row wrap;
+    flex: 0 0 34%;
+    padding: 1% 15% 1% 1%;
+}
+
+.VisualDesignSecondaryImage {
+    display: flex;
+    background-image: url('../../../assets/visual-design.svg');
+    min-height: 70vh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    flex: 0 0 50%;
+  }
+
+  @media screen and (max-width: 650px) {
+    .VisualDesignSecondaryContent, .VisualDesignSecondaryImage{
+        flex: 0 0 98%;
+        padding: 1%;
+      }
+      .VisualDesignSecondaryContent {
+          order: 1;
+      }
+      .VisualDesignSecondaryImage {
+          order: 2;
+      }
+      
+
+}

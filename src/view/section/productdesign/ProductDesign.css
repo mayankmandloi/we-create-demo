@@ -1,0 +1,29 @@
+.product-design-service {
+    flex: 0 0 70%;
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+    flex-wrap: wrap;
+    padding: 0px 15%;
+  }
+  .product-design-service>h1 {
+    flex: 0 0 100%;
+      text-align: center;
+      color: aliceblue;
+  }
+  
+  .product-design-service-item {
+    background-color: white;
+    margin: 15px;
+    padding: 0px 40px;
+    border-radius: 7px;
+  }
+  
+  .product-design-service-item:hover {
+    box-shadow: 4px 4px;
+  }
+  
+  .product-design-service-item>h4 {
+    margin: 10px;
+    color: dodgerblue;
+  }

@@ -1,0 +1,35 @@
+.visualDesignImage {
+    display: flex;
+    background-image: url('../../../assets/more\ than\ visual\ design.png');
+    min-height: 70vh;
+    display: flex;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    flex: 0 0 50%;
+}
+.VisualDesignContent {
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-content: center;
+    flex-flow:row wrap;
+    flex: 0 0 34%;
+    padding: 1% 15% 1% 1%;
+}
+
+@media screen and (max-width: 650px) {
+    .VisualDesignContent, .visualDesignImage{
+        flex: 0 0 98%;
+        padding: 1%;
+      }
+      .VisualDesignContent {
+          order: 1;
+      }
+      .visualDesignImage {
+          order: 2;
+          background-position: center;
+      }
+      
+
+}

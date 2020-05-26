@@ -1,0 +1,28 @@
+.UserExperinceDesignContent {
+    display: flex;
+    flex-grow: 0;
+    min-height: 70vh;
+    align-content: center;
+    justify-content: center;
+    flex-flow:row wrap;
+    flex: 0 0 30%;
+    padding: 5px 5% 5px 15%;
+  }
+
+  .UserExperinceDesignImage {
+    display: flex;
+    background-image: url('../../../assets/user\ experience\ design.svg');
+    min-height: 70vh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    flex: 0 0 50%;
+  }
+
+  @media screen and (max-width: 650px) {
+    .UserExperinceDesignContent, .UserExperinceDesignImage  {
+      flex: 0 0 98%;
+      padding: 1%;
+    }
+  }
