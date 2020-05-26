@@ -1,7 +1,14 @@
 export const addTodo = (todo) => {
-    console.log(todo);
     return {
-        type: 'ADD_NEW_TODO',
-        todo
+        todo,
+        type: 'ADD_NEW_TODO'
+    }
+};
+
+export const editTodo = (index, todo) => {
+    return {
+        index,
+        todo,
+        type: 'EDIT_TODO'
     }
 }

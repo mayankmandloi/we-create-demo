@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {addTodo} from '../../actionCreator/todoAction'
+import {addTodo, editTodo} from '../../actionCreator/todoAction'
 import { Form } from './Form';
 
     const mapStateToProps = (state) => {
@@ -8,6 +8,6 @@ import { Form } from './Form';
         }
     };
 
-    const mapDispatchToProps = {addTodo};
+    const mapDispatchToProps = {addTodo, editTodo};
 
     export default connect (mapStateToProps, mapDispatchToProps) (Form);

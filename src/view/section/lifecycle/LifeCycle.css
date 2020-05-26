@@ -1,0 +1,50 @@
+.discovery-image {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: flex;
+  }
+  .discovery-image>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .research-image, .wireframe-image, .ui-application-image {
+    background-color: white;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: flex;
+  }
+  .research-image>img, .wireframe-image>img, .ui-application-image>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .research, .ui-application {
+    flex: 0 0 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .life-cycle {
+    display: flex;
+    flex: 0 0 60%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 650px) {
+    .discovery, .research, .wireframe, .ui-application{
+      display: none;
+    }
+  .design-process-description {
+    flex: 0 0 100%;
+  }
+  }

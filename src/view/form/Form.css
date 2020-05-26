@@ -1,0 +1,9 @@
+.formData {
+    flex: 0 0 100%;
+}
+button.addButton {
+    margin: 5px;
+}
+button.addButton> h3 {
+    margin: 5px;
+}

@@ -1,0 +1,11 @@
+.design-process {
+    flex: 0 0 100%;
+  }
+
+  .design-process>h2, .design-process>p {
+    text-align: center;
+  }
+  .design-process-description {
+    flex: 0 0 40%;
+    padding: 0 5%;
+  }
