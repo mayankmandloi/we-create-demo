@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4605112.chunk.css",
+    "main.js": "/static/js/main.b9a0615b.chunk.js",
+    "main.js.map": "/static/js/main.b9a0615b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2c656aff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2c656aff.js.map",
+    "static/js/2.17d17ac5.chunk.js": "/static/js/2.17d17ac5.chunk.js",
+    "static/js/2.17d17ac5.chunk.js.map": "/static/js/2.17d17ac5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bc2472f30dad3a9f77041f17529d84a0.js": "/precache-manifest.bc2472f30dad3a9f77041f17529d84a0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d4605112.chunk.css.map": "/static/css/main.d4605112.chunk.css.map",
+    "static/js/2.17d17ac5.chunk.js.LICENSE.txt": "/static/js/2.17d17ac5.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/static/media/Product Design.72dbb38f.png",
+    "static/media/discovery-white.svg": "/static/media/discovery-white.ba965527.svg",
+    "static/media/VisualDesign.css": "/static/media/more than visual design.5f0d824f.png",
+    "static/media/research-and-project-estimation.svg": "/static/media/research-and-project-estimation.bb651591.svg",
+    "static/media/ui.svg": "/static/media/ui.9acdac4b.svg",
+    "static/media/UserExperinceDesign.css": "/static/media/user experience design.b9cb9312.svg",
+    "static/media/VisualDesignSecondary.css": "/static/media/visual-design.b6e6cbf4.svg",
+    "static/media/wireframe.svg": "/static/media/wireframe.6b180f99.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c656aff.js",
+    "static/js/2.17d17ac5.chunk.js",
+    "static/css/main.d4605112.chunk.css",
+    "static/js/main.b9a0615b.chunk.js"
+  ]
+}
