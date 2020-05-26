@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       <Provider store={store}>
-        <div className="main-parent">
+        <div className="main-parent" data-testid="main-parent">
           <Switch>
             <Route path="/form">
               <Header goto='home'></Header>
@@ -38,23 +38,23 @@ function App() {
             </Route>
             <Route path="/">
               <Header goto='form'></Header>
-              <Section>
+              <Section key="sec-1">
                 <VisualDesignImage/>
                 <VisualDesignContent/>
               </Section>
-               <Section>
+               <Section key="sec-2">
                  <DesignProcess/>
                </Section>
-              <Section>
+              <Section key="sec-3">
                 <LifeCycle/>
               </Section>
-              <Section>
+              <Section key="sec-4">
                 <ProductDesign/>
               </Section>
-              <Section>
+              <Section key="sec-5">
                 <UserExperinceDesign/>
               </Section>
-              <Section>
+              <Section key="sec-6">
                 <VisualDesignSecondaryImage/>
                 <VisualDesignSecondaryContent/>
               </Section>
